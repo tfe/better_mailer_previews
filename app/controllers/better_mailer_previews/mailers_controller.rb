@@ -1,5 +1,5 @@
 module BetterMailerPreviews
-  class MailersController < ActionController::Base
+  class MailersController < BetterMailerPreviews::ApplicationController
     layout "better_mailer_previews/application"
 
     def index
